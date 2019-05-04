@@ -6,5 +6,6 @@ Not much to this yet. Just spending more time learning Python.
 
 ### Some required modules
 validate_email: https://pypi.org/project/validate_email/
+
 py3DNS: https://pypi.org/project/py3dns/
 
