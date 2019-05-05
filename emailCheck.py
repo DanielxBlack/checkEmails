@@ -42,5 +42,7 @@ possibilities = [a, b, c, d,e,f,g]
 #simple print test
 for addy in possibilities:
     theEmail = (f"{addy}{domainName}")
-    is_valid = validate_email(theEmail,verify=True)
-    print(f"{theEmail} is valid: {is_valid}")
+    if validate_email(theEmail,verify=True) == True:
+        print(theEmail)
+    else:
+        ()
