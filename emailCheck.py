@@ -3,6 +3,8 @@
 # Import required modules
 from validate_email import validate_email
 
+""" This script uses py3DNS, but does not require import of the module"""
+
 """This will eventually become a tool to test company emails and their naming conventions"""
 
 
